@@ -1,0 +1,36 @@
+{
+  "_schema": "paratros-ledger-forecast/1: row_hash = sha256(canonicalize(hash_input)); canonicalize = keys sorted recursively, no whitespace (sidelineiq-agents src/ledger/row-hash.ts)",
+  "hash_version": 1,
+  "row_hash": "79d42d7cc9c8e66b0703635a4326a2f61789b275a8c6cfff8ae9861c9d7c310d",
+  "hash_input": {
+    "hash_version": 1,
+    "entry_id": "PT-2026-001",
+    "version": 1,
+    "published_at": "2026-10-07T00:15:20.352Z",
+    "trigger": null,
+    "player": "Lamar Jackson",
+    "team": "Baltimore Ravens",
+    "position": "Quarterback",
+    "injury_date": "2026-10-04",
+    "reported_injury": "ankle injury",
+    "source_tier": "A",
+    "source_urls": [
+      "https://www.baltimoreravens.com/news/lamar-jackson-ankle-injury-ravens-titans-tyler-huntley"
+    ],
+    "mechanism": "Contact, defender landed on the back of the planted leg during a sack, end of the first half.",
+    "base_rate_row": "low_ankle_sprain",
+    "base_rate_strength": "thin",
+    "f1_ir": "0.1000",
+    "f2_next": "0.3000",
+    "f3_4wk": "0.9500",
+    "f4_point": 1,
+    "f4_low": 0,
+    "f4_high": 3,
+    "f5_reinjury": "0.2000",
+    "season_ending": false,
+    "what_moves_this": "Severity of ankle ligament tear and stability of the joint.",
+    "tier": 1
+  },
+  "confirmed_at": "2026-10-07T00:15:20.352Z",
+  "commit_of": "PT-2026-001 v1"
+}
