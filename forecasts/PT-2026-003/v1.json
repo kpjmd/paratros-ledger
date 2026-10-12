@@ -1,0 +1,37 @@
+{
+  "_schema": "paratros-ledger-forecast/1: row_hash = sha256(canonicalize(hash_input)); canonicalize = keys sorted recursively, no whitespace (sidelineiq-agents src/ledger/row-hash.ts)",
+  "hash_version": 1,
+  "row_hash": "a50d0f5cbff3e0445c9819967fa428190f84d8a899e51f6513ad9f44aa1b67cf",
+  "hash_input": {
+    "hash_version": 1,
+    "entry_id": "PT-2026-003",
+    "version": 1,
+    "published_at": "2026-10-12T05:18:08.250Z",
+    "trigger": null,
+    "player": "Javon Hargrave",
+    "team": "Green Bay Packers",
+    "position": "Defensive Tackle",
+    "injury_date": "2026-10-11",
+    "reported_injury": "Achilles injury (believed torn, per coach)",
+    "source_tier": "B",
+    "source_urls": [
+      "https://sports.yahoo.com/articles/javon-hargrave-injury-packers-defensive-201159582.html",
+      "https://x.com/RapSheet/status/2109440645924618692"
+    ],
+    "mechanism": "Went down on GB's final defensive series, Q4 vs CHI; carted off.",
+    "base_rate_row": "achilles_tear",
+    "base_rate_strength": "strong",
+    "f1_ir": "0.9500",
+    "f2_next": "0.0300",
+    "f3_4wk": "0.0300",
+    "f4_point": 12,
+    "f4_low": 12,
+    "f4_high": 12,
+    "f5_reinjury": "0.0500",
+    "season_ending": true,
+    "what_moves_this": "MRI showing a partial tear or no rupture; IR placement.",
+    "tier": 1
+  },
+  "confirmed_at": "2026-10-12T05:18:08.250Z",
+  "commit_of": "PT-2026-003 v1"
+}
