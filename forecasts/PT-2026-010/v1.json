@@ -1,0 +1,36 @@
+{
+  "_schema": "paratros-ledger-forecast/1: row_hash = sha256(canonicalize(hash_input)); canonicalize = keys sorted recursively, no whitespace (sidelineiq-agents src/ledger/row-hash.ts)",
+  "hash_version": 1,
+  "row_hash": "c0bf4428e89d562f573cb3abbb549c2e16c4b7428a8cd37dd73a9f44b7c6531e",
+  "hash_input": {
+    "hash_version": 1,
+    "entry_id": "PT-2026-010",
+    "version": 1,
+    "published_at": "2026-10-13T17:14:26.514Z",
+    "trigger": null,
+    "player": "Will Campbell",
+    "team": "New England Patriots",
+    "position": "Offensive Tackle",
+    "injury_date": "2026-10-11",
+    "reported_injury": "Knee injury; avoided major injury, week-to-week (per Tom Pelissero)",
+    "source_tier": "B",
+    "source_urls": [
+      "https://x.com/TomPelissero/status/2110040457120006600"
+    ],
+    "mechanism": "Contact. Structure not reported; MCL sprain assumed film-based.",
+    "base_rate_row": "mcl",
+    "base_rate_strength": "moderate",
+    "f1_ir": "0.2500",
+    "f2_next": "0.0500",
+    "f3_4wk": "0.7000",
+    "f4_point": 2,
+    "f4_low": 2,
+    "f4_high": 5,
+    "f5_reinjury": "0.1000",
+    "season_ending": false,
+    "what_moves_this": "Structure/grade reported; practice participation this week.",
+    "tier": 1
+  },
+  "confirmed_at": "2026-10-13T17:14:26.514Z",
+  "commit_of": "PT-2026-010 v1"
+}
