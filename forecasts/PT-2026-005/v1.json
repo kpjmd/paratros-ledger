@@ -1,0 +1,37 @@
+{
+  "_schema": "paratros-ledger-forecast/1: row_hash = sha256(canonicalize(hash_input)); canonicalize = keys sorted recursively, no whitespace (sidelineiq-agents src/ledger/row-hash.ts)",
+  "hash_version": 1,
+  "row_hash": "8fb9d039cbfc4754ab6a1526c3bbdf513dbc791cde6210dfe5c48711b34785ee",
+  "hash_input": {
+    "hash_version": 1,
+    "entry_id": "PT-2026-005",
+    "version": 1,
+    "published_at": "2026-10-13T03:07:36.732Z",
+    "trigger": null,
+    "player": "Will Shipley",
+    "team": "Philadelphia Eagles",
+    "position": "Running Back",
+    "injury_date": "2026-10-11",
+    "reported_injury": "Partial tear of his plantar fascia",
+    "source_tier": "B",
+    "source_urls": [
+      "https://x.com/AdamSchefter/status/2109663824701718774",
+      "https://www.espn.com/nfl/story/_/id/50166619/source-eagles-rb-shipley-partial-tear-plantar-fascia"
+    ],
+    "mechanism": "Mechanism not reported. Exited late Q1 vs JAX, London.",
+    "base_rate_row": "plantar_fascia_tear",
+    "base_rate_strength": "thin",
+    "f1_ir": "0.5000",
+    "f2_next": "0.0500",
+    "f3_4wk": "0.3000",
+    "f4_point": 4,
+    "f4_low": 2,
+    "f4_high": 8,
+    "f5_reinjury": "0.0500",
+    "season_ending": false,
+    "what_moves_this": "IR placement; practice participation this week.",
+    "tier": 2
+  },
+  "confirmed_at": "2026-10-13T03:07:36.732Z",
+  "commit_of": "PT-2026-005 v1"
+}
