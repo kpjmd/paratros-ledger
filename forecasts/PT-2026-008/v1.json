@@ -1,0 +1,37 @@
+{
+  "_schema": "paratros-ledger-forecast/1: row_hash = sha256(canonicalize(hash_input)); canonicalize = keys sorted recursively, no whitespace (sidelineiq-agents src/ledger/row-hash.ts)",
+  "hash_version": 1,
+  "row_hash": "6cf5263a5d6197ac2c04c3e75d8428a42fc1a59276de163dc61a9a4d74ef77f9",
+  "hash_input": {
+    "hash_version": 1,
+    "entry_id": "PT-2026-008",
+    "version": 1,
+    "published_at": "2026-10-13T16:12:44.696Z",
+    "trigger": null,
+    "player": "Tom Kennedy",
+    "team": "Detroit Lions",
+    "position": "Wide Receiver",
+    "injury_date": "2026-10-11",
+    "reported_injury": "MCL injury, right knee; season-ending surgery (per coach Dan Campbell).",
+    "source_tier": "A",
+    "source_urls": [
+      "https://www.rotowire.com/football/headlines/tom-kennedy-injury-season-ending-surgery-confirmed-642243",
+      "https://www.cbssports.com/fantasy/football/news/lions-tom-kennedy-season-ending-surgery-confirmed/"
+    ],
+    "mechanism": "Q2 punt return vs ARI (per The Detroit News); left on crutches.",
+    "base_rate_row": "mcl_operative",
+    "base_rate_strength": "thin",
+    "f1_ir": "0.8500",
+    "f2_next": "0.0000",
+    "f3_4wk": "0.0000",
+    "f4_point": 12,
+    "f4_low": 12,
+    "f4_high": 12,
+    "f5_reinjury": "0.0500",
+    "season_ending": true,
+    "what_moves_this": "IR placement timing (bye week); any reversal of the season-ending call.",
+    "tier": 1
+  },
+  "confirmed_at": "2026-10-13T16:12:44.696Z",
+  "commit_of": "PT-2026-008 v1"
+}
