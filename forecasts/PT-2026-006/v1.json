@@ -1,0 +1,36 @@
+{
+  "_schema": "paratros-ledger-forecast/1: row_hash = sha256(canonicalize(hash_input)); canonicalize = keys sorted recursively, no whitespace (sidelineiq-agents src/ledger/row-hash.ts)",
+  "hash_version": 1,
+  "row_hash": "ea1d54af248ea844b00d320b77a53e7d69e15bb7fa8465fc14da0119160a3471",
+  "hash_input": {
+    "hash_version": 1,
+    "entry_id": "PT-2026-006",
+    "version": 1,
+    "published_at": "2026-10-13T03:34:41.046Z",
+    "trigger": null,
+    "player": "T.J. Edwards",
+    "team": "Chicago Bears",
+    "position": "Linebacker",
+    "injury_date": "2026-10-11",
+    "reported_injury": "hamstring injury",
+    "source_tier": "B",
+    "source_urls": [
+      "https://www.si.com/nfl/bears/onsi/bears-packers-trade-costly-injuries-in-ugly-chicago-loss-at-lambeau-field"
+    ],
+    "mechanism": "Non-contact (per SI). Ruled out in-game.",
+    "base_rate_row": "hamstring_strain",
+    "base_rate_strength": "moderate",
+    "f1_ir": "0.1000",
+    "f2_next": "0.1000",
+    "f3_4wk": "0.9000",
+    "f4_point": 2,
+    "f4_low": 1,
+    "f4_high": 3,
+    "f5_reinjury": "0.2500",
+    "season_ending": false,
+    "what_moves_this": "MRI grade/severity, returns to practice.",
+    "tier": 2
+  },
+  "confirmed_at": "2026-10-13T03:34:41.046Z",
+  "commit_of": "PT-2026-006 v1"
+}
