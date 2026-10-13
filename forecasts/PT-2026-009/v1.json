@@ -1,0 +1,37 @@
+{
+  "_schema": "paratros-ledger-forecast/1: row_hash = sha256(canonicalize(hash_input)); canonicalize = keys sorted recursively, no whitespace (sidelineiq-agents src/ledger/row-hash.ts)",
+  "hash_version": 1,
+  "row_hash": "088ab4634b656d207eba376a798882018ab1ac8db99c5f7055cd5820f5c0dfae",
+  "hash_input": {
+    "hash_version": 1,
+    "entry_id": "PT-2026-009",
+    "version": 1,
+    "published_at": "2026-10-13T17:02:17.043Z",
+    "trigger": null,
+    "player": "TreVeyon Henderson",
+    "team": "New England Patriots",
+    "position": "Running Back",
+    "injury_date": "2026-10-11",
+    "reported_injury": "High ankle sprain; no surgery needed (per Adam Schefter)",
+    "source_tier": "B",
+    "source_urls": [
+      "https://www.espn.com/nfl/story/_/id/50173985/sources-patriots-treveyon-henderson-high-ankle-sprain",
+      "https://x.com/AdamSchefter/status/2110011758530187621"
+    ],
+    "mechanism": "Contact. Tackled along the sideline by S Jeremy Chinn, Q2 (per ESPN); came up hobbling. Missed Week 1 with an ankle injury.",
+    "base_rate_row": "high_ankle_sprain",
+    "base_rate_strength": "moderate",
+    "f1_ir": "0.5500",
+    "f2_next": "0.0500",
+    "f3_4wk": "0.3000",
+    "f4_point": 4,
+    "f4_low": 2,
+    "f4_high": 7,
+    "f5_reinjury": "0.1000",
+    "season_ending": false,
+    "what_moves_this": "IR placement; practice participation this week.",
+    "tier": 2
+  },
+  "confirmed_at": "2026-10-13T17:02:17.043Z",
+  "commit_of": "PT-2026-009 v1"
+}
