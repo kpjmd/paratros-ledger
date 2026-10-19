@@ -1,0 +1,38 @@
+{
+  "_schema": "paratros-ledger-forecast/1: row_hash = sha256(canonicalize(hash_input)); canonicalize = keys sorted recursively, no whitespace (sidelineiq-agents src/ledger/row-hash.ts)",
+  "hash_version": 1,
+  "row_hash": "078edb698f1558d5a022ac60c4bc42020fa7696a054fe45f9ce645417fa0f44a",
+  "hash_input": {
+    "hash_version": 1,
+    "entry_id": "PT-2026-011",
+    "version": 1,
+    "published_at": "2026-10-19T06:08:08.144Z",
+    "trigger": null,
+    "player": "Alijah Vera-Tucker",
+    "team": "New England Patriots",
+    "position": "Left Guard",
+    "injury_date": "2026-10-18",
+    "reported_injury": "\"Hamstring\" (patriots.com)",
+    "source_tier": "A",
+    "source_urls": [
+      "https://www.patspulpit.com/new-england-patriots-injuries/141130/alijah-vera-tucker-injury-patriots-guard-leaves-jets-game-before-the-half",
+      "https://www.patriots.com/news/game-observations-8-takeaways-from-the-patriots-victory-over-the-jets-in-week-6",
+      "https://x.com/RichCimini/status/2111885377342484563"
+    ],
+    "mechanism": "Left late in Q2 vs. NYJ; team listed him questionable to return, and he did not return.",
+    "base_rate_row": "hamstring_strain",
+    "base_rate_strength": "moderate",
+    "f1_ir": "0.0500",
+    "f2_next": "0.1000",
+    "f3_4wk": "0.9000",
+    "f4_point": 2,
+    "f4_low": 1,
+    "f4_high": 4,
+    "f5_reinjury": "0.1500",
+    "season_ending": false,
+    "what_moves_this": "Tue/Wed practice report (DNP / limited / full); Thursday inactive list; IR designation.",
+    "tier": 1
+  },
+  "confirmed_at": "2026-10-19T06:08:08.144Z",
+  "commit_of": "PT-2026-011 v1"
+}
