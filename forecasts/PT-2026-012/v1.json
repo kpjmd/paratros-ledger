@@ -1,0 +1,37 @@
+{
+  "_schema": "paratros-ledger-forecast/1: row_hash = sha256(canonicalize(hash_input)); canonicalize = keys sorted recursively, no whitespace (sidelineiq-agents src/ledger/row-hash.ts)",
+  "hash_version": 1,
+  "row_hash": "3f94ee5a1620f86ef693ae7ea9e0458dcca5a53a28db11acc6a4fe490f7ad403",
+  "hash_input": {
+    "hash_version": 1,
+    "entry_id": "PT-2026-012",
+    "version": 1,
+    "published_at": "2026-10-19T22:20:50.407Z",
+    "trigger": null,
+    "player": "Sauce Gardner",
+    "team": "Indianapolis Colts",
+    "position": "Cornerback",
+    "injury_date": "2026-10-18",
+    "reported_injury": "\"mild calf strain\"; \"week-to-week\" (Rapoport, NFL Network)",
+    "source_tier": "B",
+    "source_urls": [
+      "https://www.nbcsports.com/nfl/profootballtalk/rumor-mill/news/report-sauce-gardner-week-to-week-with-mild-calf-strain",
+      "https://x.com/RapSheet/status/2112220198786723841"
+    ],
+    "mechanism": "Exited Q3 vs. TEN and was not able to return.",
+    "base_rate_row": "quad_calf_strain",
+    "base_rate_strength": "thin",
+    "f1_ir": "0.0300",
+    "f2_next": "0.2000",
+    "f3_4wk": "0.9000",
+    "f4_point": 1,
+    "f4_low": 0,
+    "f4_high": 4,
+    "f5_reinjury": "0.2000",
+    "season_ending": false,
+    "what_moves_this": "Wed-Fri practice report (DNP / limited / full); Sunday inactive list; IR designation.",
+    "tier": 1
+  },
+  "confirmed_at": "2026-10-19T22:20:50.407Z",
+  "commit_of": "PT-2026-012 v1"
+}
