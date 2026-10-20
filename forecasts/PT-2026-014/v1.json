@@ -1,0 +1,39 @@
+{
+  "_schema": "paratros-ledger-forecast/1: row_hash = sha256(canonicalize(hash_input)); canonicalize = keys sorted recursively, no whitespace (sidelineiq-agents src/ledger/row-hash.ts)",
+  "hash_version": 1,
+  "row_hash": "0d49b94818fde4ca3da7d83a547ca9e3912fffb1fa5dc3981829bcaa85d8427e",
+  "hash_input": {
+    "hash_version": 1,
+    "entry_id": "PT-2026-014",
+    "version": 1,
+    "published_at": "2026-10-20T21:18:22.446Z",
+    "trigger": null,
+    "player": "Davante Adams",
+    "team": "Los Angeles Rams",
+    "position": "Wide Receiver",
+    "injury_date": "2026-10-18",
+    "reported_injury": "\"ruptured semitendinosus\" (McVay, Rams); \"hamstring injury\"; \"out 6-10 weeks\" (Rapoport, NFL Network)",
+    "source_tier": "A",
+    "source_urls": [
+      "https://x.com/RapSheet/status/2112286809397006716",
+      "https://www.espn.com/nfl/story/_/id/50221426/rams-lose-star-wr-davante-adams-6-10-weeks-mcvay-says",
+      "https://x.com/RapSheet/status/2112292046308336093",
+      "https://www.nytimes.com/athletic/7705718/2026/10/19/davante-adams-hamstring-injury-out-weeks/"
+    ],
+    "mechanism": "Pulled up running a route into the end zone, late Q4 vs. ARI (1:30 left per The Athletic).",
+    "base_rate_row": "hamstring_tear",
+    "base_rate_strength": "thin",
+    "f1_ir": "0.9500",
+    "f2_next": "0.0100",
+    "f3_4wk": "0.0300",
+    "f4_point": 5,
+    "f4_low": 4,
+    "f4_high": 10,
+    "f5_reinjury": "0.0500",
+    "season_ending": false,
+    "what_moves_this": "Procedure date and post-procedure timeline report; return to practice.",
+    "tier": 1
+  },
+  "confirmed_at": "2026-10-20T21:18:22.446Z",
+  "commit_of": "PT-2026-014 v1"
+}
