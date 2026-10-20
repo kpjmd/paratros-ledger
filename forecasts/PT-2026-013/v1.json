@@ -1,0 +1,38 @@
+{
+  "_schema": "paratros-ledger-forecast/1: row_hash = sha256(canonicalize(hash_input)); canonicalize = keys sorted recursively, no whitespace (sidelineiq-agents src/ledger/row-hash.ts)",
+  "hash_version": 1,
+  "row_hash": "92609dd8e4764d53b6aa1032d4a3a31aef2437f2956617313145dd9fdcb4d8f7",
+  "hash_input": {
+    "hash_version": 1,
+    "entry_id": "PT-2026-013",
+    "version": 1,
+    "published_at": "2026-10-20T21:02:20.045Z",
+    "trigger": null,
+    "player": "Terry McLaurin",
+    "team": "Washington Commanders",
+    "position": "Wide Receiver",
+    "injury_date": "2026-10-19",
+    "reported_injury": "\"tore his left patellar tendon\" and \"will miss the remainder of the season\" (The Athletic, citing coach Dan Quinn)",
+    "source_tier": "A",
+    "source_urls": [
+      "https://x.com/RapSheet/status/2112500397919318262",
+      "https://www.espn.com/nfl/story/_/id/50222846/commanders-terry-mclaurin-carted-knee-injury-ruled-mnf-vs-49ers",
+      "https://www.nytimes.com/athletic/7707523/2026/10/20/terry-mclaurin-torn-patellar-tendon-injury-commanders/"
+    ],
+    "mechanism": "Carted off in an air cast after a sharp cut on a route, Q1 2:16 vs. SF; no contact described.",
+    "base_rate_row": "patella_tendon_tear",
+    "base_rate_strength": "thin",
+    "f1_ir": "0.9500",
+    "f2_next": "0.0100",
+    "f3_4wk": "0.0100",
+    "f4_point": 11,
+    "f4_low": 11,
+    "f4_high": 11,
+    "f5_reinjury": "0.0100",
+    "season_ending": false,
+    "what_moves_this": "Surgery date; any team statement revising the season-ending timeline.",
+    "tier": 1
+  },
+  "confirmed_at": "2026-10-20T21:02:20.045Z",
+  "commit_of": "PT-2026-013 v1"
+}
