@@ -1,0 +1,37 @@
+{
+  "_schema": "paratros-ledger-forecast/1: row_hash = sha256(canonicalize(hash_input)); canonicalize = keys sorted recursively, no whitespace (sidelineiq-agents src/ledger/row-hash.ts)",
+  "hash_version": 1,
+  "row_hash": "3e87c787b4fac59b0f5c606da8a849b40b0b0657124b0f2c6eff9114a55a2aba",
+  "hash_input": {
+    "hash_version": 1,
+    "entry_id": "PT-2026-015",
+    "version": 1,
+    "published_at": "2026-10-24T05:28:54.948Z",
+    "trigger": null,
+    "player": "Tremaine Edmunds",
+    "team": "New York Giants",
+    "position": "Linebacker",
+    "injury_date": "2026-10-18",
+    "reported_injury": "torn chest muscle",
+    "source_tier": "B",
+    "source_urls": [
+      "https://www.espn.com/nfl/story/_/id/50260899/giants-lb-tremaine-edmunds-chest-year-source-says",
+      "https://x.com/AdamSchefter/status/2113763058929832330"
+    ],
+    "mechanism": "Contact injury consistent with film, under 2 minutes remaining in Q4 loss to the New Orleans Saints.",
+    "base_rate_row": "pectoral_rupture",
+    "base_rate_strength": "moderate",
+    "f1_ir": "0.9500",
+    "f2_next": "0.0300",
+    "f3_4wk": "0.0300",
+    "f4_point": 11,
+    "f4_low": 9,
+    "f4_high": 11,
+    "f5_reinjury": "0.0500",
+    "season_ending": true,
+    "what_moves_this": "Surgery report with a timeline, or the team contradicting the reported injury.",
+    "tier": 1
+  },
+  "confirmed_at": "2026-10-24T05:28:54.948Z",
+  "commit_of": "PT-2026-015 v1"
+}
