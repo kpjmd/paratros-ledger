@@ -1,0 +1,38 @@
+{
+  "_schema": "paratros-ledger-forecast/1: row_hash = sha256(canonicalize(hash_input)); canonicalize = keys sorted recursively, no whitespace (sidelineiq-agents src/ledger/row-hash.ts)",
+  "hash_version": 1,
+  "row_hash": "999e0c7645f729306c4aef2e185e11411140e5c0727debb5f5982e3853a221b8",
+  "hash_input": {
+    "hash_version": 1,
+    "entry_id": "PT-2026-017",
+    "version": 1,
+    "published_at": "2026-10-26T22:23:29.665Z",
+    "trigger": null,
+    "player": "Jaylin Noel",
+    "team": "Houston Texans",
+    "position": "Wide Receiver",
+    "injury_date": "2026-10-25",
+    "reported_injury": "turf toe injury, per DeMeco Ryans",
+    "source_tier": "B",
+    "source_urls": [
+      "https://www.usatoday.com/story/sports/fantasy/player-updates/2026/10/25/jaylin-noel-suffered-turf-toe-injury-in-week-7/92438155007/",
+      "https://www.rotoballer.com/player-news/jaylin-noel-diagnosed-with-turf-toe-after-week-7-exit/1975528",
+      "https://clutchpoints.com/nfl/houston-texans/texans-news-jaylin-noel-injury-update-puts-further-damper-giants-loss"
+    ],
+    "mechanism": "Injured on a kickoff return, Q4. No film reviewed; mechanism not established.",
+    "base_rate_row": "turf_toe",
+    "base_rate_strength": "thin",
+    "f1_ir": "0.1500",
+    "f2_next": "0.3000",
+    "f3_4wk": "0.7000",
+    "f4_point": 2,
+    "f4_low": 0,
+    "f4_high": 8,
+    "f5_reinjury": "0.1000",
+    "season_ending": false,
+    "what_moves_this": "MRI/grade (plantar plate involvement); boot duration; Wed-Fri practice participation.",
+    "tier": 1
+  },
+  "confirmed_at": "2026-10-26T22:23:29.665Z",
+  "commit_of": "PT-2026-017 v1"
+}
