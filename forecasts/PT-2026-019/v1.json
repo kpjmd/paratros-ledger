@@ -1,0 +1,37 @@
+{
+  "_schema": "paratros-ledger-forecast/1: row_hash = sha256(canonicalize(hash_input)); canonicalize = keys sorted recursively, no whitespace (sidelineiq-agents src/ledger/row-hash.ts)",
+  "hash_version": 1,
+  "row_hash": "aa7c0754434b625ced3ce511376dccd4f0a8f77666e52e50ecae25348e029f05",
+  "hash_input": {
+    "hash_version": 1,
+    "entry_id": "PT-2026-019",
+    "version": 1,
+    "published_at": "2026-10-28T04:39:26.506Z",
+    "trigger": null,
+    "player": "Olaivavega Ioane",
+    "team": "Baltimore Ravens",
+    "position": "Guard",
+    "injury_date": "2026-10-25",
+    "reported_injury": "MCL sprain, considered short-term; will miss \"a little time,\" per Rapoport and Garafolo",
+    "source_tier": "B",
+    "source_urls": [
+      "https://www.baltimoreravens.com/news/vega-ioane-injury-knee-short-term-mcl-sprain-reports",
+      "https://x.com/RapSheet/status/2115053943000563776"
+    ],
+    "mechanism": "Apparent helmet to the knee downfield on a short pass. Left after the next play, first half. Per reports; no film reviewed.",
+    "base_rate_row": "mcl",
+    "base_rate_strength": "moderate",
+    "f1_ir": "0.0500",
+    "f2_next": "0.0500",
+    "f3_4wk": "0.9000",
+    "f4_point": 1,
+    "f4_low": 1,
+    "f4_high": 3,
+    "f5_reinjury": "0.1000",
+    "season_ending": false,
+    "what_moves_this": "MCL grade (I vs II); return to practice (limited vs full) before Week 9; brace.",
+    "tier": 2
+  },
+  "confirmed_at": "2026-10-28T04:39:26.506Z",
+  "commit_of": "PT-2026-019 v1"
+}
