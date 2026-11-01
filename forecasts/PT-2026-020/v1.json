@@ -1,0 +1,37 @@
+{
+  "_schema": "paratros-ledger-forecast/1: row_hash = sha256(canonicalize(hash_input)); canonicalize = keys sorted recursively, no whitespace (sidelineiq-agents src/ledger/row-hash.ts)",
+  "hash_version": 1,
+  "row_hash": "7379b4bf86f10343b05e55d69d01e6ea5259e4ba06a2bb57a1859e4b849bc5bb",
+  "hash_input": {
+    "hash_version": 1,
+    "entry_id": "PT-2026-020",
+    "version": 1,
+    "published_at": "2026-11-01T03:38:22.206Z",
+    "trigger": null,
+    "player": "Daron Payne",
+    "team": "Washington Commanders",
+    "position": "Defensive Tackle",
+    "injury_date": "2026-10-30",
+    "reported_injury": "Jones fracture, season-ending (per Schefter/ESPN)",
+    "source_tier": "B",
+    "source_urls": [
+      "https://www.espn.co.uk/nfl/story/_/id/50336399/source-commanders-dt-payne-suffered-season-ending-foot-injury",
+      "https://x.com/AdamSchefter/status/2116542167506170254"
+    ],
+    "mechanism": "Team drill, late in a light practice. Team source: fluke, not contact on the foot. No film.",
+    "base_rate_row": "jones_fracture",
+    "base_rate_strength": "moderate",
+    "f1_ir": "0.9700",
+    "f2_next": "0.0200",
+    "f3_4wk": "0.0300",
+    "f4_point": 11,
+    "f4_low": 11,
+    "f4_high": 11,
+    "f5_reinjury": "0.0800",
+    "season_ending": true,
+    "what_moves_this": "Report of a non-operative course or a return timeline inside the 11 remaining games. Release or trade voids open fields.",
+    "tier": 1
+  },
+  "confirmed_at": "2026-11-01T03:38:22.206Z",
+  "commit_of": "PT-2026-020 v1"
+}
