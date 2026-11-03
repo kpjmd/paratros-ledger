@@ -1,0 +1,37 @@
+{
+  "_schema": "paratros-ledger-forecast/1: row_hash = sha256(canonicalize(hash_input)); canonicalize = keys sorted recursively, no whitespace (sidelineiq-agents src/ledger/row-hash.ts)",
+  "hash_version": 1,
+  "row_hash": "5fbf640cc83359ffc2363af78bc072fdb5586835f6b702032c72711adb428d9e",
+  "hash_input": {
+    "hash_version": 1,
+    "entry_id": "PT-2026-022",
+    "version": 1,
+    "published_at": "2026-11-03T04:45:36.498Z",
+    "trigger": null,
+    "player": "Kendrick Bourne",
+    "team": "Arizona Cardinals",
+    "position": "Wide Receiver",
+    "injury_date": "2026-11-01",
+    "reported_injury": "Fractured tibia, no surgery needed, out about 3 months, season-ending (per Schefter)",
+    "source_tier": "B",
+    "source_urls": [
+      "https://x.com/AdamSchefter/status/2117388095079272923",
+      "https://sports.yahoo.com/articles/cardinals-wr-kendrick-bournes-ankle-220628448.html"
+    ],
+    "mechanism": "Non-contact per Yahoo. Went down running a route, grabbed his right ankle, 21 seconds left in the first half at DAL. No film reviewed.",
+    "base_rate_row": "tibia_fracture",
+    "base_rate_strength": "moderate",
+    "f1_ir": "0.9500",
+    "f2_next": "0.0100",
+    "f3_4wk": "0.0200",
+    "f4_point": 9,
+    "f4_low": 9,
+    "f4_high": 9,
+    "f5_reinjury": "0.0300",
+    "season_ending": true,
+    "what_moves_this": "Report of surgery, a return timeline inside the 9 remaining games, or a revised fracture description. Release or trade voids open fields.",
+    "tier": 1
+  },
+  "confirmed_at": "2026-11-03T04:45:36.498Z",
+  "commit_of": "PT-2026-022 v1"
+}
