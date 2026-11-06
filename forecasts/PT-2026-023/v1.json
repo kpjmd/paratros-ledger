@@ -1,0 +1,38 @@
+{
+  "_schema": "paratros-ledger-forecast/1: row_hash = sha256(canonicalize(hash_input)); canonicalize = keys sorted recursively, no whitespace (sidelineiq-agents src/ledger/row-hash.ts)",
+  "hash_version": 1,
+  "row_hash": "84520d3361514791e40459e26746a5dfe110b3a38e8a156a979f5af1b19a8219",
+  "hash_input": {
+    "hash_version": 1,
+    "entry_id": "PT-2026-023",
+    "version": 1,
+    "published_at": "2026-11-06T03:28:20.706Z",
+    "trigger": null,
+    "player": "DaVon Hamilton",
+    "team": "Jacksonville Jaguars",
+    "position": "Defensive Tackle",
+    "injury_date": "2026-11-01",
+    "reported_injury": "torn quad",
+    "source_tier": "A",
+    "source_urls": [
+      "https://www.bigcountrynewsconnection.com/jaguars-lose-davon-hamilton-to-season-ending-quadriceps-injury/",
+      "https://www.foxsports.com/stories/nfl/jacksonville-jaguars-davon-hamilton-quad-injury",
+      "https://x.com/RapSheet/status/2117266097128734825"
+    ],
+    "mechanism": "Injured in the 2nd quarter while attempting to shed a block vs. IND; carted off.",
+    "base_rate_row": "quad_tendon_tear",
+    "base_rate_strength": "thin",
+    "f1_ir": "0.9800",
+    "f2_next": "0.0300",
+    "f3_4wk": "0.0300",
+    "f4_point": 10,
+    "f4_low": 10,
+    "f4_high": 10,
+    "f5_reinjury": "0.0100",
+    "season_ending": true,
+    "what_moves_this": "Imaging or surgery showing a partial muscle-belly tear, or the team walking back the season-ending call.",
+    "tier": 1
+  },
+  "confirmed_at": "2026-11-06T03:28:20.706Z",
+  "commit_of": "PT-2026-023 v1"
+}
