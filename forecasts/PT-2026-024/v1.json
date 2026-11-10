@@ -1,0 +1,37 @@
+{
+  "_schema": "paratros-ledger-forecast/1: row_hash = sha256(canonicalize(hash_input)); canonicalize = keys sorted recursively, no whitespace (sidelineiq-agents src/ledger/row-hash.ts)",
+  "hash_version": 1,
+  "row_hash": "f13f1994adc09b2589e28cfa252ce1a24326e7c4e12db31df6b31da590622028",
+  "hash_input": {
+    "hash_version": 1,
+    "entry_id": "PT-2026-024",
+    "version": 1,
+    "published_at": "2026-11-10T03:06:45.887Z",
+    "trigger": null,
+    "player": "Gracen Halton",
+    "team": "San Francisco 49ers",
+    "position": "Defensive Tackle",
+    "injury_date": "2026-11-08",
+    "reported_injury": "broken ankle",
+    "source_tier": "A",
+    "source_urls": [
+      "https://www.nbcsportsbayarea.com/nfl/san-francisco-49ers/gracen-halton-ankle-injury-raiders/1978217/",
+      "https://x.com/AdamSchefter/status/2119603534102421819"
+    ],
+    "mechanism": "Teammate Keion White rolled over left lower leg in Q4 win against the Raiders. Resultant ankle deformity on film requiring aircast and cart off field on stretcher.",
+    "base_rate_row": "ankle_fracture",
+    "base_rate_strength": "thin",
+    "f1_ir": "0.9700",
+    "f2_next": "0.0100",
+    "f3_4wk": "0.0100",
+    "f4_point": 9,
+    "f4_low": 9,
+    "f4_high": 9,
+    "f5_reinjury": "0.0100",
+    "season_ending": true,
+    "what_moves_this": "Imaging or surgery showing a stable fracture that allows a return before Week 18, or Shanahan walking back the season-ending call.",
+    "tier": 1
+  },
+  "confirmed_at": "2026-11-10T03:06:45.887Z",
+  "commit_of": "PT-2026-024 v1"
+}
