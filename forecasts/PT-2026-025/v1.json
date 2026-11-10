@@ -1,0 +1,37 @@
+{
+  "_schema": "paratros-ledger-forecast/1: row_hash = sha256(canonicalize(hash_input)); canonicalize = keys sorted recursively, no whitespace (sidelineiq-agents src/ledger/row-hash.ts)",
+  "hash_version": 1,
+  "row_hash": "d548d399bd90ccdf9b9b4ba848a4306901c1748314d28a5e91eaa30e0f8d1115",
+  "hash_input": {
+    "hash_version": 1,
+    "entry_id": "PT-2026-025",
+    "version": 1,
+    "published_at": "2026-11-10T04:06:40.122Z",
+    "trigger": null,
+    "player": "Steve Avila",
+    "team": "Los Angeles Rams",
+    "position": "Guard",
+    "injury_date": "2026-11-08",
+    "reported_injury": "hamstring injury",
+    "source_tier": "B",
+    "source_urls": [
+      "https://athlonsports.com/nfl/los-angeles-rams/steve-avila-injury-rams-hamstring-commanders",
+      "https://theramswire.usatoday.com/story/sports/nfl/rams/2026/11/08/rams-lg-steve-avila-exits-with-hamstring-injury-vs-commanders/92679689007/"
+    ],
+    "mechanism": "Exited in Q2 vs. WAS on a Kyren Williams run (10:32 left), walked off with trainers and ruled out; aggravation of a hamstring injury from Week 8 vs. LAC (per Duarte, California Post).",
+    "base_rate_row": "hamstring_strain",
+    "base_rate_strength": "moderate",
+    "f1_ir": "0.0800",
+    "f2_next": "0.1000",
+    "f3_4wk": "0.8000",
+    "f4_point": 2,
+    "f4_low": 1,
+    "f4_high": 4,
+    "f5_reinjury": "0.2000",
+    "season_ending": false,
+    "what_moves_this": "A named grade or MRI result from the Rams, IR placement, or his practice participation before the Nov 15 game.",
+    "tier": 1
+  },
+  "confirmed_at": "2026-11-10T04:06:40.122Z",
+  "commit_of": "PT-2026-025 v1"
+}
