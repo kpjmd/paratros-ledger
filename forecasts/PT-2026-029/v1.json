@@ -1,0 +1,37 @@
+{
+  "_schema": "paratros-ledger-forecast/1: row_hash = sha256(canonicalize(hash_input)); canonicalize = keys sorted recursively, no whitespace (sidelineiq-agents src/ledger/row-hash.ts)",
+  "hash_version": 1,
+  "row_hash": "b6eddf9290b8686647b256b7214eff93c38c263e29a9a91e78579946be8fad34",
+  "hash_input": {
+    "hash_version": 1,
+    "entry_id": "PT-2026-029",
+    "version": 1,
+    "published_at": "2026-11-17T05:59:22.691Z",
+    "trigger": null,
+    "player": "Jared Wiley",
+    "team": "Kansas City Chiefs",
+    "position": "Tight End",
+    "injury_date": "2026-11-15",
+    "reported_injury": "fractured ankle (head coach Andy Reid: \"it looks like he fractured his ankle\")",
+    "source_tier": "A",
+    "source_urls": [
+      "https://www.cbssports.com/fantasy/football/news/chiefs-jared-wiley-sustains-fractured-ankle-in-blowout-win/",
+      "https://chiefswire.usatoday.com/story/sports/nfl/chiefs/2026/11/15/kansas-city-chiefs-andy-reid-blunt-update-jared-wiley-injury-nfl-week-10/92804311007/"
+    ],
+    "mechanism": "Carted to the locker room in the first quarter against Atlanta and did not return.",
+    "base_rate_row": "ankle_fracture",
+    "base_rate_strength": "thin",
+    "f1_ir": "0.9000",
+    "f2_next": "0.0300",
+    "f3_4wk": "0.0300",
+    "f4_point": 7,
+    "f4_low": 6,
+    "f4_high": 8,
+    "f5_reinjury": "0.0500",
+    "season_ending": false,
+    "what_moves_this": "Surgery announced, or IR placement.",
+    "tier": 2
+  },
+  "confirmed_at": "2026-11-17T05:59:22.691Z",
+  "commit_of": "PT-2026-029 v1"
+}
