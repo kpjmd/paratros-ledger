@@ -1,0 +1,38 @@
+{
+  "_schema": "paratros-ledger-forecast/1: row_hash = sha256(canonicalize(hash_input)); canonicalize = keys sorted recursively, no whitespace (sidelineiq-agents src/ledger/row-hash.ts)",
+  "hash_version": 1,
+  "row_hash": "3d4f845e2dccf36bdf316d32ced3f9f1242002a996f7b0750d46ae571129409b",
+  "hash_input": {
+    "hash_version": 1,
+    "entry_id": "PT-2026-028",
+    "version": 1,
+    "published_at": "2026-11-17T05:27:00.003Z",
+    "trigger": null,
+    "player": "Aidan Hutchinson",
+    "team": "Detroit Lions",
+    "position": "Defensive End",
+    "injury_date": "2026-11-15",
+    "reported_injury": "torn right ACL (reported; team has not confirmed)",
+    "source_tier": "B",
+    "source_urls": [
+      "https://sports.yahoo.com/nfl/breaking-news/article/lions-star-aidan-hutchinson-reportedly-sustains-torn-acl-while-celebrating-sack-of-drake-maye-144314643.html",
+      "https://x.com/espn/status/2122338404218093863",
+      "https://x.com/AdamSchefter/status/2122339368710938638"
+    ],
+    "mechanism": "Landed from a celebration jump after a first-quarter sack and fell holding his right knee. No contact on the play.",
+    "base_rate_row": "acl",
+    "base_rate_strength": "strong",
+    "f1_ir": "0.9800",
+    "f2_next": "0.0100",
+    "f3_4wk": "0.0100",
+    "f4_point": 8,
+    "f4_low": 8,
+    "f4_high": 8,
+    "f5_reinjury": "0.0500",
+    "season_ending": true,
+    "what_moves_this": "Surgery announced or performed, or IR placement.",
+    "tier": 1
+  },
+  "confirmed_at": "2026-11-17T05:27:00.003Z",
+  "commit_of": "PT-2026-028 v1"
+}
