@@ -1,0 +1,37 @@
+{
+  "_schema": "paratros-ledger-forecast/1: row_hash = sha256(canonicalize(hash_input)); canonicalize = keys sorted recursively, no whitespace (sidelineiq-agents src/ledger/row-hash.ts)",
+  "hash_version": 1,
+  "row_hash": "41fc254e6cd3d17c0bacd9d989797ce126d4ed33e7664b29f3ef8764ca214d0c",
+  "hash_input": {
+    "hash_version": 1,
+    "entry_id": "PT-2026-030",
+    "version": 1,
+    "published_at": "2026-11-18T02:39:08.921Z",
+    "trigger": null,
+    "player": "Tyler Booker",
+    "team": "Dallas Cowboys",
+    "position": "Guard",
+    "injury_date": "2026-11-15",
+    "reported_injury": "high-ankle sprain (per NFL Network's Ian Rapoport; hope is back within 4 weeks)",
+    "source_tier": "B",
+    "source_urls": [
+      "https://www.si.com/nfl/cowboys/onsi/tyler-booker-injury-update-week-10-loss-tough-blow-dallas-cowboys-offense",
+      "https://x.com/RapSheet/status/2122362683437506747"
+    ],
+    "mechanism": "Left the game after 33 snaps with an ankle injury in the Week 10 loss to the 49ers.",
+    "base_rate_row": "high_ankle_sprain",
+    "base_rate_strength": "moderate",
+    "f1_ir": "0.1500",
+    "f2_next": "0.0500",
+    "f3_4wk": "0.1000",
+    "f4_point": 3,
+    "f4_low": 3,
+    "f4_high": 6,
+    "f5_reinjury": "0.1000",
+    "season_ending": false,
+    "what_moves_this": "Practice participation in Weeks 11-13, a surgery report, or IR placement.",
+    "tier": 1
+  },
+  "confirmed_at": "2026-11-18T02:39:08.921Z",
+  "commit_of": "PT-2026-030 v1"
+}
