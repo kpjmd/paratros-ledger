@@ -1,0 +1,37 @@
+{
+  "_schema": "paratros-ledger-forecast/1: row_hash = sha256(canonicalize(hash_input)); canonicalize = keys sorted recursively, no whitespace (sidelineiq-agents src/ledger/row-hash.ts)",
+  "hash_version": 1,
+  "row_hash": "57fe22ced1244a4f81dbccada109ac74f6b082f552d4abd4334ae1eac2cf0132",
+  "hash_input": {
+    "hash_version": 1,
+    "entry_id": "PT-2026-027",
+    "version": 2,
+    "published_at": "2026-11-20T22:30:21.303Z",
+    "trigger": "New reporting: right fibula fracture confirmed, no surgery needed, out deep into the regular season (Schefter/Reiss, 2026-11-20)",
+    "player": "Drake Maye",
+    "team": "New England Patriots",
+    "position": "Quarterback",
+    "injury_date": "2026-11-15",
+    "reported_injury": "fractured right fibula, non-operative (per Schefter/Reiss)",
+    "source_tier": "B",
+    "source_urls": [
+      "https://x.com/AdamSchefter/status/2123855118877483470",
+      "https://x.com/MikeReiss/status/2123856024503521456"
+    ],
+    "mechanism": "Went down after Q1 sack by Lions Aidan Hutchinson grabbing leg. Able to walk off field but ruled out in Q2.",
+    "base_rate_row": "fibula_fracture",
+    "base_rate_strength": "thin",
+    "f1_ir": "0.9500",
+    "f2_next": "0.0100",
+    "f3_4wk": "0.0200",
+    "f4_point": 7,
+    "f4_low": 7,
+    "f4_high": 7,
+    "f5_reinjury": "0.0500",
+    "season_ending": true,
+    "what_moves_this": "IR placement, surgery or added ligament injury reported, or a return-to-practice timeline.",
+    "tier": 1
+  },
+  "confirmed_at": "2026-11-20T22:30:21.303Z",
+  "commit_of": "PT-2026-027 v2"
+}
