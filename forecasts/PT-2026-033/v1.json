@@ -1,0 +1,38 @@
+{
+  "_schema": "paratros-ledger-forecast/1: row_hash = sha256(canonicalize(hash_input)); canonicalize = keys sorted recursively, no whitespace (sidelineiq-agents src/ledger/row-hash.ts)",
+  "hash_version": 1,
+  "row_hash": "26313bcd17c2a95f7062da1f26cef60f7bb358da5829dbe507e686d4b3407424",
+  "hash_input": {
+    "hash_version": 1,
+    "entry_id": "PT-2026-033",
+    "version": 1,
+    "published_at": "2026-11-24T19:50:49.494Z",
+    "trigger": null,
+    "player": "Alex Highsmith",
+    "team": "Pittsburgh Steelers",
+    "position": "Linebacker",
+    "injury_date": "2026-11-22",
+    "reported_injury": "left ankle injury",
+    "source_tier": "B",
+    "source_urls": [
+      "https://steelersnow.com/alex-highsmith-status-revealed-vs-broncos/",
+      "https://steelerswire.usatoday.com/story/sports/nfl/steelers/2026/11/22/steelers-news-alex-highsmith-ankle-injury-week-11-eagles/92914157007/",
+      "https://x.com/RapSheet/status/2124570826733433001"
+    ],
+    "mechanism": "Q1, after sacking Eagles QB Joe Milton III, Highsmith left the field struggling to put weight on the left leg. Ankle heavily taped; downgraded from questionable to out; in a boot postgame.",
+    "base_rate_row": "low_ankle_sprain",
+    "base_rate_strength": "thin",
+    "f1_ir": "0.0500",
+    "f2_next": "0.1000",
+    "f3_4wk": "0.9000",
+    "f4_point": 2,
+    "f4_low": 1,
+    "f4_high": 3,
+    "f5_reinjury": "0.2000",
+    "season_ending": false,
+    "what_moves_this": "This week's practice participation and Friday designation; a team-stated timeline or injury grade; IR placement.",
+    "tier": 1
+  },
+  "confirmed_at": "2026-11-24T19:50:49.494Z",
+  "commit_of": "PT-2026-033 v1"
+}
