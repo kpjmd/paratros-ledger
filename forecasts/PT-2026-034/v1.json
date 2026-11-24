@@ -1,0 +1,38 @@
+{
+  "_schema": "paratros-ledger-forecast/1: row_hash = sha256(canonicalize(hash_input)); canonicalize = keys sorted recursively, no whitespace (sidelineiq-agents src/ledger/row-hash.ts)",
+  "hash_version": 1,
+  "row_hash": "6aa7468410fba586f0ad5a3689e25b97018c90846a3fa8d82a2b5972c276d098",
+  "hash_input": {
+    "hash_version": 1,
+    "entry_id": "PT-2026-034",
+    "version": 1,
+    "published_at": "2026-11-24T20:23:09.486Z",
+    "trigger": null,
+    "player": "Quinyon Mitchell",
+    "team": "Philadelphia Eagles",
+    "position": "Cornerback",
+    "injury_date": "2026-11-22",
+    "reported_injury": "left hamstring",
+    "source_tier": "B",
+    "source_urls": [
+      "https://www.cbssports.com/fantasy/football/news/eagles-quinyon-mitchell-wont-return-vs-pittsburgh/",
+      "https://theeagleswire.usatoday.com/story/sports/nfl/eagles/2026/11/24/eagles-quinyon-mitchell-injury-update-vic-fangio-cowboys-thanksgiving/92945972007/",
+      "https://x.com/RapSheet/status/2124607636616429596"
+    ],
+    "mechanism": "Left the game in the second half vs. Pittsburgh with a left hamstring injury; ruled out for the remainder of the game.",
+    "base_rate_row": "hamstring_strain",
+    "base_rate_strength": "moderate",
+    "f1_ir": "0.0300",
+    "f2_next": "0.5000",
+    "f3_4wk": "0.9500",
+    "f4_point": 1,
+    "f4_low": 0,
+    "f4_high": 2,
+    "f5_reinjury": "0.2500",
+    "season_ending": false,
+    "what_moves_this": "This week's practice participation and Thursday designation; team-stated timeline; IR placement.",
+    "tier": 2
+  },
+  "confirmed_at": "2026-11-24T20:23:09.486Z",
+  "commit_of": "PT-2026-034 v1"
+}
